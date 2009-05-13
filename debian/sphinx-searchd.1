@@ -1,0 +1,38 @@
+.\"Created with GNOME Manpages Editor Wizard
+.TH sphinx-searchd 1 "May 12, 2009" "" "SQL Full Text search engine"
+
+.SH NAME
+sphinx-searchd \- SQL Full Text search engine
+
+.SH SYNOPSIS
+.B sphinx-searchd [\fIOPTIONS\fR]
+
+.SH DESCRIPTION
+Sphinx 0.9.8.1\-release (r1533)
+Copyright (c) 2001\-2008, Andrew Aksyonoff
+
+.PP
+Options are:
+.PP
+\fB\-h\fR, \fB\-\-help\fR              display this help message
+.PP
+\fB\-c\fR, \fB\-config\fR <file>      read configuration from specified file (default is sphinx.conf)
+.PP
+\fB\-\-stop\fR                  send SIGTERM to currently running searchd 
+                        (PID is taken from pid_file specified in config file)
+.PP
+\fB\-\-iostats\fR               log per\-query io stats
+.PP
+Debugging options are:
+.PP
+\fB\-\-console\fR               run in console mode (do not fork, do not log to files)
+.PP
+\fB\-p\fR, \fB\-\-port\fR <port>       listen on given port (overrides config setting)
+.PP
+\fB\-i\fR, \fB\-\-index\fR <index>     only serve one given index
+.SH EXAMPLES
+searchd \fB\-\-config\fR /usr/local/sphinx/etc/sphinx.conf
+.PP
+Sphinx 0.9.8.1\-release (r1533)
+Copyright (c) 2001\-2008, Andrew Aksyonoff
+

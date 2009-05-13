@@ -1,0 +1,13 @@
+Source: sphinxsearch
+Section: web
+Priority: extra
+Maintainer: Tom Simnett <tom@initforthe.com>
+Build-Depends: debhelper (>= 5), autotools-dev, libmysqlclient15-dev, postgresql-server-dev-8.3
+Standards-Version: 3.8.1
+Homepage: http://www.sphinxsearch.com/
+
+Package: sphinxsearch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmysqlclient15off
+Description: SQL full-text search engine
+ Sphinx is a full-text search engine, distributed under GPL version 2. 

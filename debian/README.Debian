@@ -1,0 +1,11 @@
+Sphinx SQL Search Engine
+========================
+
+To finalise installation, use example configuration and 
+save as /etc/sphinx.conf.
+
+Example configuration files can be found in 
+/usr/share/doc/sphinxsearch/examples/
+
+After creating the configuration file, just run sphinx-searchd
+

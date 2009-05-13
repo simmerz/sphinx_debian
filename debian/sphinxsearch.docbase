@@ -1,0 +1,9 @@
+Document: sphinxsearch
+Title: Sphinx Manual
+Author: Andrew Aksyonoff
+Abstract: This manual describes what sphinxsearch is, and how it can be used
+Section: Apps/Tools
+
+Format: HTML
+Index: /usr/share/doc/sphinxsearch/html/sphinx.html
+Files: /usr/share/doc/gentoo/html/*.html

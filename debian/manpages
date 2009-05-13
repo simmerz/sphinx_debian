@@ -1,0 +1,4 @@
+debian/sphinx-indexer.1
+debian/sphinx-search.1
+debian/sphinx-searchd.1
+debian/sphinx-spelldump.1
