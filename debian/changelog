@@ -3,6 +3,6 @@ sphinxsearch (0.9.8.1-1) unstable; urgency=low
   * Initial release
   * Builds with support for PostgreSQL and MySQL
   * Update with correct package dependencies for PostgreSQL
-  * Closes: bug#456227 
+  * Closes: #456227 
 
  -- Tom Simnett <tom@initforthe.com>  Tue, 12 May 2009 17:35:38 +0100
