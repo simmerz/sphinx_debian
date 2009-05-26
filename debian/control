@@ -5,6 +5,8 @@ Maintainer: Tom Simnett <tom@initforthe.com>
 Build-Depends: debhelper (>= 5), autotools-dev, libmysqlclient15-dev, postgresql-server-dev-8.3
 Standards-Version: 3.8.1
 Homepage: http://www.sphinxsearch.com/
+Vcs-Browser: http://github.com/simmerz/sphinx_debian/tree/master
+Vcs-git: git://github.com/simmerz/sphinx_debian.git
 
 Package: sphinxsearch
 Architecture: any
