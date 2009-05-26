@@ -65,7 +65,6 @@ install: build
 	$(MAKE) DESTDIR=$(CURDIR)/debian/sphinxsearch install
 	rm -rf debian/sphinxsearch/var/data
 	rm -rf debian/sphinxsearch/etc/*
-	rmdir debian/sphinxsearch/usr/sbin
 
 
 # Build architecture-independent files here.
